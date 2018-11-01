@@ -1,6 +1,6 @@
 import {HttpEvent, HttpHandler, HttpInterceptor, HttpRequest} from '@angular/common/http';
 import {Observable} from 'rxjs';
-import {HashUtil} from './hash.util';
+import {HashUtil} from './hash-util';
 import {EventEmitter} from '@angular/core';
 
 const sessionStorageParamName = 'savedRequests';

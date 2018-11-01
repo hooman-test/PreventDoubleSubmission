@@ -1,10 +1,10 @@
 {
-  "name": "PreventDoubleSubmission",
+  "name": "double-submission-interceptor",
   "author": "Hooman Noroozinia",
   "license": "ISC",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "This project is an interceptor for any typescript application to prevent redundant post requests.",
-  "main": "src/index.ts",
+  "main": "prevent-double-submission-interceptor.ts",
   "types": "dist/index.d.ts",
   "homepage": "https://github.com/hooman82/PreventDoubleSubmission#readme",
   "scripts": {
